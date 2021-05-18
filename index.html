@@ -1,12 +1,28 @@
 <html>
 	<head>
 <style>
+body {
+	font-family: "Bahnschrift", "Liberation Mono", monospace;
+	font-size: 16px;
+}
+body, a {
+	color: #2e75b6;
+}
+a:active {
+	color: #9dc3e6;
+}
+
 #logo {
 	color: #9dc3e6;
-	font-family: bahnschrift, "Liberation Mono", monospace;
-	margin: 8em auto 0 auto;
+	font-family: "Bahnschrift", "Liberation Mono", monospace;
+	margin: 6em auto 4em auto;
 	text-align: center;
 	width: 600px;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
 }
 #logo .picture {
 	font-size: 16em;
@@ -18,16 +34,67 @@
 #logo .picture .flosse {
 	color: #2e75b6;
 }
+
+nav {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	padding-left: inherit;
+}
+nav ul li {
+	display: inline;
+	margin: 0 0.6em;
+}
+
+main {
+	margin: 6em;
+}
+article {
+	margin: 3em auto;
+	width: 600px;
+}
 </style>
 	</head>
 	<body>
-		<div id="logo">
-			<div class="picture"><span class="flosse">&gt;</span>&lt;&gt;</div>
-			<span class="subtext">flosse</span>
-		</div>
-		<div id="nav">
-		</div>
-		<div id="main">
-		</div>
+		<header>
+			<div id="logo">
+				<div class="picture"><span class="flosse">&gt;</span>&lt;&gt;</div>
+				<h1 class="subtext">flosse</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#why">Why</a></li>
+					<li><a href="#who">Who<a></li>
+					<li><a href="#what">What</a></li>
+					<li><a href="#when">When</a></li>
+					<li><a href="#where">Where</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<article id="why">
+				<h2>Why?</h2>
+				Blah.
+			</article>
+			<article id="who">
+				<h2>Who?</h2>
+				Blah.
+			</article>
+			<article id="what">
+				<h2>What?</h2>
+				Blah.
+			</article>
+			<article id="when">
+				<h2>When?</h2>
+				Blah.
+			</article>
+			<article id="where">
+				<h2>Where?</h2>
+				Blah.
+			</article>
+		</main>
 	</body>
 </html>
