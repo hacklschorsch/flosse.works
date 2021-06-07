@@ -1,0 +1,1 @@
+- The indented bullet points list has padding applied to both sides, yet my mobile (both Chrome and Firefox) does not honor the right side padding. Chrome on my laptop does.
