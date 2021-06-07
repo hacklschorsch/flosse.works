@@ -2,7 +2,7 @@
 
 // Scope: Download single file from GitHub. Web-Hook to be called by GitHub.
 // 
-// Author: Florian Sesser 2021.
+// Author: Florian Sesser
 // License: Public domain / CC0
 // Rant: The PHP curl API is the worst I have seen in years.
 //       It's bad even by PHP standards.
