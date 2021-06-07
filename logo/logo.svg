@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="93.268013mm"
-   height="56.474941mm"
-   viewBox="0 0 93.268013 56.474941"
+   height="55.416607mm"
+   viewBox="0 0 93.268013 55.416607"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -31,8 +31,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="-62.267175"
-     inkscape:cy="-42.017218"
+     inkscape:cx="-62.267174"
+     inkscape:cy="-42.01722"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -84,12 +84,14 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14.8167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="105.62617"
-       y="83.414955"
+       y="82.356621"
        id="text839"><tspan
          sodipodi:role="line"
          id="tspan837"
          x="105.62617"
-         y="83.414955"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;fill:#9dc3e6;fill-opacity:1;stroke-width:0.264583">flosse.works</tspan></text>
+         y="82.356621"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;fill:#9dc3e6;fill-opacity:1;stroke-width:0.264583"><tspan
+   style="fill:#2e75b6;fill-opacity:1"
+   id="tspan1468">flosse</tspan>.works</tspan></text>
   </g>
 </svg>
