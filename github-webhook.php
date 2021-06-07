@@ -36,7 +36,7 @@ if (!flock($fp, LOCK_EX | LOCK_NB)) {
 		if (!fwrite($fp, $c)) {
 			throw new Exception("Could not write to file.");
 		}
-		if (!ftruncate($fp, strlen($c)) {
+		if (!ftruncate($fp, strlen($c))) {
 			throw new Exception("File truncate failed.");
 		}
 	}
