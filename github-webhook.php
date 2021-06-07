@@ -5,7 +5,7 @@
 // Author: Florian Sesser 2021.
 // License: Public domain / CC0
 // Rant: The PHP curl API is the worst I have seen in years.
-//       It's bad even for PHP standards.
+//       It's bad even by PHP standards.
 
 // This makes PHP return the exception string and set an HTTP error code.
 function exception_handler($exception) {
