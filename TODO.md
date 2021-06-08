@@ -1,1 +1,0 @@
-- Compression (Like [this](http://httpd.apache.org/docs/current/mod/mod_deflate.html#precompressed) via @mattiasgeniar's [Blog post here](https://ma.ttias.be/pre-compress-content-apache-avoid-compressing-every-request/) (thx!)

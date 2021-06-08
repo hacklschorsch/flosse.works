@@ -11,6 +11,7 @@
 function exception_handler($exception) {
 	http_response_code(500);
 	echo "Exception: " , $exception->getMessage(), "\n";
+	flock($fp, LOCK_UN); // release the lock
 }
 set_exception_handler('exception_handler');
 
@@ -38,6 +39,9 @@ if (!flock($fp, LOCK_EX | LOCK_NB)) {
 		}
 		if (!ftruncate($fp, strlen($c))) {
 			throw new Exception("File truncate failed.");
+		}
+		if (!file_put_contents("index.html.gz", gzencode($c, 9), LOCK_EX)) {
+			throw new Exception("Could not write compressed copy.");
 		}
 	}
 
