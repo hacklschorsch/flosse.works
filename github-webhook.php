@@ -8,6 +8,7 @@
 //       It's bad even by PHP standards.
 
 // This makes PHP return the exception string and set an HTTP error code.
+// "Execution will stop after the callback is called." say the docs.
 function exception_handler($exception) {
 	http_response_code(500);
 	echo "Exception: " , $exception->getMessage(), "\n";
