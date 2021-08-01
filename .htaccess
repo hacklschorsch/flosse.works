@@ -1,5 +1,4 @@
-# Serve gzip compressed HTML, CSS and JS files if they exist
-# and the client accepts gzip.
+# Serve gzip compressed HTML, CSS and JS files if they exist and the client accepts gzip.
 # See http://httpd.apache.org/docs/current/mod/mod_deflate.html#precompressed
 <IfModule mod_headers.c>
 	<IfModule mod_rewrite.c>
@@ -24,4 +23,3 @@
 		</FilesMatch>
 	</IfModule>
 </IfModule>
-
