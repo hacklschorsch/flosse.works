@@ -6,7 +6,7 @@
 
 		RewriteCond "%{HTTP:Accept-encoding}" "gzip"
 		RewriteCond "%{REQUEST_FILENAME}\.gz" -s
-		RewriteRule "^(.*)\.(css|js|html)"		 "$1\.$2\.gz" [QSA]
+		RewriteRule "^(.*)\.(css|js|html)" "$1\.$2\.gz" [QSA]
 
 		# Serve correct content types, and prevent mod_deflate double gzip.
 		RewriteRule "\.css\.gz$"  "-" [T=text/css,E=no-gzip:1]
@@ -16,9 +16,7 @@
 		<FilesMatch "(\.js\.gz|\.css\.gz|\.html\.gz)$">
 			# Serve correct encoding type.
 			Header append Content-Encoding gzip
-
-			# Force proxies to cache gzipped &
-			# non-gzipped css/js files separately.
+			# Force proxies to cache gzipped & non-gzipped css/js files separately.
 			Header append Vary Accept-Encoding
 		</FilesMatch>
 	</IfModule>
